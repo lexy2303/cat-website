@@ -1,0 +1,18 @@
+ .cat-gifs-title {
+  color: white;
+  margin-bottom: 120px;
+ }
+
+ @media (max-width: 500px) {
+  .cat-gifs-title {
+    font-size: 38px;
+  }
+
+  .cat-gifs-container {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    overflow-y: scroll;
+    align-items: center;
+  }
+ }

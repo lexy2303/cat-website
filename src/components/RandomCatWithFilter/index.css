@@ -1,0 +1,61 @@
+.cat-with-filter-box {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.cat-with-filter-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cat-with-filter-button {
+  background-color: transparent;
+  color: rgb(12, 12, 12);
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 19px;
+  border-radius: 20px;
+  padding: 5px;
+  width: 120px;
+  margin: 70px 0 50px 0;
+}
+
+.cat-with-filter-button:hover {
+  border: 2px solid rgb(187, 185, 185);
+  color: rgb(187, 185, 185);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 180px;
+  margin: 0 15px 0 15px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #ababab;
+  height: 4px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: #053a5f;
+  height: 0.5rem;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -5px; /* Centers thumb on the track */
+  background-color: #545454;
+  height: 15px;
+  width: 15px; 
+  border-radius: 50%;   
+}
+
+label {
+  font-weight: 500;
+}

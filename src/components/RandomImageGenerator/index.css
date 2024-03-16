@@ -1,0 +1,31 @@
+.main-random-cat-generator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.random-cat-generator-button {
+  display: inline-block;
+  padding: 15px;
+  background-color: var(--color);
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  font-size: .875rem;
+  margin-bottom: 20px;
+  width: 230px;
+  margin-bottom: 40px;
+}
+
+.random-cat-generator-button:hover {
+  background-color: rgb(96, 95, 95);
+}
+
+@media (max-width: 500px) {
+  .random-cat-generator-title {
+    font-size: 38px;
+  }
+}
